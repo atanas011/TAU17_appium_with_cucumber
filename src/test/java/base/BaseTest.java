@@ -22,7 +22,7 @@ public class BaseTest extends AbstractTestNGCucumberTests {
 
         UiAutomator2Options options = new UiAutomator2Options()
                 .setPlatformName("Android")
-                .setPlatformVersion("10")
+                .setPlatformVersion("9")
                 .setAppPackage("com.jeffprod.todo")
                 .setAppActivity("ActivityMain")
                 .setNoReset(true);
